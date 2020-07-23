@@ -1,0 +1,27 @@
+{
+  "name": "fhc",
+  "version": "0.0.0",
+  "description": "Chrome extension to filter search result of forkwell jobs",
+  "homepage": "https://github.com/Naturalclar/fhc#readme",
+  "bugs": {
+    "url": "https://github.com/Naturalclar/fhc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naturalclar/fhc.git"
+  },
+  "license": "MIT",
+  "author": "Naturalclar (https://github.com/Naturalclar)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build",
+    "type-check": "tsc -noEmit",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@naturalclar/tsconfig": "^0.1.0",
+    "typescript": "^3.5.3"
+  }
+}
