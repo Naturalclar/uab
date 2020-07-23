@@ -1,5 +1,5 @@
 {
-  "name": "forkwell-hide-users",
+  "name": "ufret-hide-ad",
   "manifest_version": 2,
   "version": "1.0",
   "browser_action": {
@@ -7,7 +7,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://jobs.forkwell.com/*", "https://jobs.forkwell.com/*"],
+      "matches": ["https://www.ufret.jp/*"],
       "js": ["dist/script.js"]
     }
   ]
