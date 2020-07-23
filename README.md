@@ -1,13 +1,13 @@
-# fhc
+# uab
 
-Forkwell Jobs で、すでにメモしたユーザを非表示にする chrome 拡張機能。
+特定のサイトの広告を非表示にする chrome 拡張機能。
 
 ## Usage
 
 ### Clone thie repository
 
 ```
-git clone git+https://github.com/Naturalclar/fhc.git
+git clone git+https://github.com/Naturalclar/uab.git
 ```
 
 ### Install dependencies
@@ -24,4 +24,3 @@ yarn
 
 - Chrome を一旦 Reload する。
 
-- Forkwell の検索ページを開く。
