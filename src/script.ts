@@ -1,6 +1,6 @@
 function removeAd() {
   Array.from(document.querySelectorAll('#gn_interstitial_area')).forEach(e => e.remove())
-  document.getElementsByTagName("html")[0].classList.remove('gn_inst_scroll_cancel');
+  document.getElementsByTagName("html")[0].setAttribute("style","position:static")
 }
 
 window.onload = function() {
